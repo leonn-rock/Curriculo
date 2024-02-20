@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* .left{
+    width: 25vw;
+    height: calc(100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ltop{
+    height: 40%;
+    width: 80%;
+}
+.lbottom{
+    height: 40%;
+    width: 80%;
+    background-image: url(side2.jpg); 
+    background-size: cover;
+}
+.right{
+    width: 25vw;
+    height: calc(100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rtop{
+    height: 40%;
+    width: 80%;
+    background-image: url(side1.jpg);
+    background-size: cover;
+} 
+.rbottom{
+    height: 40%;
+    width: 80%;
+}*/
+#pagina{
+    background-image: url(../images/caderno.jpg);
+    box-shadow: inset 0 0 10px rgb(73, 100, 255);
+    margin: 0 auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    opacity: 90%;
+    background: linear-gradient(-45deg, rgb(73, 100, 255), rgb(130, 180, 255));
+    color: white;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+}
+header div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 20, 20, 0.336);
+    text-shadow: 2px 2px 5px black;
+}
+header h1{
+    font-size: 42pt;
+}
+header h1:hover{
+    font-size: 48pt;
+    transition: 1s;
+}
+.img{
+    margin: 20px auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-image: url(../images/github.jpg);
+    background-size: cover;
+}
+.box1{
+    margin: 15px auto 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px rgb(73, 100, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    text-align: center;
+}
+.box1:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.box1 h2{
+    text-align: center;
+}
+.meio{
+    text-align: center;
+}
+footer{
+    opacity: 90%;
+    background: linear-gradient(-45deg, rgb(73, 100, 255), rgb(130, 180, 255));
+    color: white;
+    text-align: center;
+    height: 100px;
+    
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 20, 20, 0.336);
+    text-shadow: 2px 2px 5px black;
+}
+footer a{
+    color: white;
+    padding: 8px;
+    background-color: rgba(49, 20, 20, 0.336);
+    border:2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 8px;
+    margin:0 10px;
+}
+footer a:hover{
+    background-color: rgba(0, 0, 0, 0.616);
+    transition: 500ms;
+}
